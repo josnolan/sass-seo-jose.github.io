@@ -1,0 +1,384 @@
+/* Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#area {
+  display: grid;
+  grid-template-areas: "menu  menu  menu" "info2 info2 banner" "info2 info2 banner" "footer footer footer";
+  gap: 5px;
+  height: 145vh;
+  grid-template-rows: 80px auto 170px 30px;
+  grid-template-columns: auto auto 400px;
+  background: linear-gradient(to top, #537A38, #D4F7BB, #A8F571);
+}
+#area header {
+  grid-area: info;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+#area header img {
+  height: auto;
+  width: 100%;
+}
+#area nav {
+  grid-area: menu;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+}
+#area nav div img {
+  height: auto;
+  width: 80px;
+  padding-left: 0px;
+}
+#area nav ul {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#area nav ul li a {
+  margin: 10px 10px;
+  padding: 10px;
+  background-color: #A8F571;
+  text-decoration: none;
+  color: antiquewhite;
+  border-radius: 5px;
+}
+#area nav ul li a:hover {
+  background-color: white;
+  color: #657559;
+}
+#area section {
+  grid-area: info2;
+  padding-top: 40px;
+}
+#area section h1 {
+  text-align: center;
+  font-weight: bold;
+}
+#area section form {
+  display: flex;
+  justify-content: center;
+}
+#area section .titulo2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#area section .titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#area section .et {
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+}
+#area section .et .textarea {
+  width: 300px;
+  height: 100px;
+  border: 1px;
+}
+#area section .et2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+}
+#area section .ir {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+#area section .ir a {
+  color: whitesmoke;
+}
+#area section .ir a:hover {
+  color: black;
+}
+#area section input .et {
+  transition: all 1s;
+}
+#area section .et input:focus {
+  height: 50px;
+  width: 500px;
+  background-color: #A8F571;
+}
+#area article {
+  grid-area: articulo;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: flex-end;
+}
+#area aside {
+  grid-area: banner;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+  justify-content: flex-start;
+}
+#area aside .ban1 {
+  height: auto;
+  width: 100%;
+}
+#area aside .ban2 {
+  margin: 0;
+  padding: 5px;
+}
+#area aside .ban3 {
+  margin: 0;
+  padding: 5px;
+}
+#area aside .ban4 {
+  margin: 0;
+  padding: 5px;
+}
+#area aside h8 {
+  width: 400px;
+  height: 100px;
+  padding: 5px;
+  padding-top: 40px;
+  margin-right: 0px;
+  background-color: #537A38;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  text-align: center;
+}
+
+@-webkit-keyframes example {
+  0% {
+    background-color: #537A38;
+  }
+  25% {
+    background-color: #D4F7BB;
+  }
+  50% {
+    background-color: #A8F571;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: #537A38;
+  }
+  25% {
+    background-color: #D4F7BB;
+  }
+  50% {
+    background-color: #A8F571;
+  }
+  100% {
+    background-color: green;
+  }
+}
+#area footer {
+  grid-area: footer;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  padding: 5px;
+}
+
+#area article div {
+  width: 100%;
+  height: auto;
+}
+#area article img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+#area article p {
+  margin: 0;
+  padding: 10px;
+  color: brown;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+}
+@media (max-width: 1024px) {
+  #area {
+    display: grid;
+    grid-template-areas: "menu" "info2" "footer";
+    gap: 5px;
+    height: 140vh;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-columns: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  #area nav {
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  #area nav div img {
+    display: none;
+  }
+}
+@media (max-width: 1024px) { /* max = hasta... */
+  #area nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 5px;
+  }
+}
+@media (max-width: 1024px) {
+  #area header {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #area section {
+    grid-area: info2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: -80px;
+  }
+  #area section h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1024px) {
+  #area .arreglo {
+    background-color: #D4F7BB;
+    grid-area: menu;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    padding: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  #area section .titulo2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    justify-self: center;
+  }
+}
+@media (max-width: 1024px) {
+  #area nav div img {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #area nav {
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    /* padding-left: 0px; */
+    /* column-gap: 10px; */
+  }
+}
+@media (max-width: 1024px) { /* max = hasta... */
+  #area nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: right;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: right;
+    font-size: 5px;
+  }
+}
+@media (max-width: 1024px) {
+  #area nav ul li a {
+    margin: 1px 1px;
+    padding: 1px;
+    background-color: #A8F571;
+    text-decoration: none;
+    color: antiquewhite;
+    border-radius: 1px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  #area section h2 {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #area aside {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #area footer {
+    grid-area: footer;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10px;
+    padding: 15px;
+  }
+}
+@media (max-width: 1024px) and (max-width: 1024px) {
+  #area .extension .ir {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+  }
+  #area .extension .ir a {
+    color: whitesmoke;
+  }
+  #area .extension .ir a:hover {
+    color: black;
+  }
+}/*# sourceMappingURL=estilo31.css.map */
