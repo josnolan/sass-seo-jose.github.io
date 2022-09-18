@@ -120,13 +120,16 @@ body {
   font-weight: bold;
   justify-self: center;
 }
-#area section p {
+#area section p, #area section span {
   width: 100%;
   height: auto;
   font-size: 20px;
   padding: 5px 10px 0px 10px;
   text-align: justify;
   text-justify: inter-word;
+}
+#area section span {
+  color: blue;
 }
 #area nav {
   grid-area: menu;
@@ -177,7 +180,7 @@ body {
 #area article img {
   border-radius: 20px;
 }
-#area article p {
+#area article p, #area article section span, #area section article span {
   width: 100%;
   height: auto;
   font-size: 20px;
@@ -400,7 +403,7 @@ a.btn-social,
   }
 }
 @media (max-width: 1024px) and (max-width: 1024px) {
-  #area section p {
+  #area section p, #area section span {
     padding-top: 5px;
     align-self: center;
     text-align: justify;
@@ -453,7 +456,7 @@ a.btn-social,
   }
 }
 @media (max-width: 1024px) and (max-width: 1024px) {
-  #area article p {
+  #area article p, #area article section span, #area section article span {
     width: 100%;
     height: auto;
     font-size: 15px;

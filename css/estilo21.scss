@@ -150,6 +150,12 @@ body{
             padding: 5px 10px 0px 10px;
             text-align: map-get($parrafo,talinea);
             text-justify: map-get($parrafo,tjustifica); 
+
+          
+        }
+        span{
+            @extend p;
+            color: blue;
         }
         
     }
@@ -225,8 +231,6 @@ body{
             padding: 5px 10px 0px 10px;
             text-align: map-get($parrafo,talinea);
             text-justify: map-get($parrafo,tjustifica); 
-        
-
 
         }
    

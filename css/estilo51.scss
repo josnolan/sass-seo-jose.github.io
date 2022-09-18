@@ -3,7 +3,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
 
 @mixin dim ($alto,$ancho){
     height: $alto;
-    width: $ancho;
+    width: $ancho;}
 
 
 *
@@ -241,8 +241,8 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         padding: 5px;
     }
     
-}
-    
+
+}   
 /* responsive */
 @media (max-width: 1024px) {
 *
