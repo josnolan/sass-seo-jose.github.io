@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 
-#area {
+#area4 {
   display: grid;
   grid-template-areas: "menu  menu  menu menu" "info2 info2 info2 banner" "info2 info2 info2 banner" "footer footer footer footer";
   gap: 5px;
@@ -14,7 +14,7 @@
   grid-template-columns: auto auto auto 310px;
   background: linear-gradient(to top, #537A38, #D4F7BB, #A8F571);
 }
-#area header {
+#area4 header {
   grid-area: info;
   position: fixed;
   top: 50px;
@@ -23,13 +23,13 @@
   padding: 10px;
   padding-bottom: 50px;
 }
-#area header img {
+#area4 header img {
   width: 100%;
   height: auto;
   padding: 20px 20px;
   margin: 20px 20px;
 }
-#area nav {
+#area4 nav {
   grid-area: menu;
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@
   /*padding-left: 100px;*/
   z-index: 1;
 }
-#area nav ul {
+#area4 nav ul {
   list-style: none;
   display: flex;
   list-style: none;
@@ -48,7 +48,7 @@
   flex-wrap: wrap;
   align-items: center;
 }
-#area nav ul li a {
+#area4 nav ul li a {
   margin: 10px 10px;
   padding: 10px;
   background-color: #A8F571;
@@ -56,20 +56,20 @@
   color: antiquewhite;
   border-radius: 5px;
 }
-#area nav ul li a:hover {
+#area4 nav ul li a:hover {
   background-color: white;
   color: #657559;
 }
-#area nav div img {
+#area4 nav div img {
   height: auto;
   width: 80px;
   padding-left: 0px;
 }
-#area section {
+#area4 .section4 {
   grid-area: info2;
   margin: 30px;
 }
-#area section p {
+#area4 .section4 p {
   height: auto;
   width: 100%;
   font-size: 20px;
@@ -77,50 +77,50 @@
   text-align: justify;
   text-justify: inter-word;
 }
-#area section form {
+#area4 .section4 form {
   display: flex;
   justify-content: center;
 }
-#area section h1 {
+#area4 .section4 h1 {
   text-align: center;
   font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-#area section h3 {
+#area4 .section4 h3 {
   font-weight: bold;
   padding: 10px 10px;
 }
-#area section table {
+#area4 .section4 table {
   margin: 0 auto;
 }
-#area section .seccion1 {
+#area4 .section4 .seccion1 {
   display: flex;
 }
-#area section table td {
+#area4 .section4 table td {
   text-align: center;
 }
-#area section .et {
+#area4 .section4 .et {
   text-align: left;
   font-weight: bold;
   font-size: 15px;
   padding: 5px 5px;
   margin: 5px 5px;
 }
-#area section .ir {
+#area4 .section4 .ir {
   text-align: center;
   font-weight: bold;
   font-size: 15px;
   padding: 5px 0px;
   margin: 5px 0px;
 }
-#area section .ir a {
+#area4 .section4 .ir a {
   color: whitesmoke;
 }
-#area section .ir a:hover {
+#area4 .section4 .ir a:hover {
   color: black;
 }
-#area article {
+#area4 .article4 {
   grid-area: articulo;
   display: flex;
   align-content: center;
@@ -128,21 +128,21 @@
   align-items: flex-end;
   align-items: flex-end;
 }
-#area article div {
+#area4 .article4 div {
   height: auto;
   width: 100%;
 }
-#area article img {
+#area4 .article4 img {
   height: auto;
   width: 100%;
   padding: 10px;
 }
-#area article p {
+#area4 .article4 p {
   margin: 0;
   padding: 10px;
   color: brown;
 }
-#area aside {
+#area4 .aside4 {
   grid-area: banner;
   display: flex;
   flex-direction: column;
@@ -151,25 +151,25 @@
   justify-content: space-evenly;
   margin: 5px 0;
 }
-#area aside .ban1 {
+#area4 .aside4 .ban1 {
   height: auto;
   width: 100%;
   margin: 5px 10px;
   padding: 5px 10px;
 }
-#area aside .ban2 {
+#area4 .aside4 .ban2 {
   margin: 0;
   padding: 5px;
 }
-#area aside .ban3 {
+#area4 .aside4 .ban3 {
   margin: 0;
   padding: 5px;
 }
-#area aside .ban4 {
+#area4 .aside4 .ban4 {
   margin: 0;
   padding: 5px;
 }
-#area footer {
+#area4 footer {
   grid-area: footer;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -187,7 +187,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area {
+  #area4 {
     display: grid;
     grid-template-areas: "menu" "info2" "footer";
     gap: 5px;
@@ -197,19 +197,19 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav {
+  #area4 nav {
     grid-area: menu;
     display: flex;
     justify-content: center;
   }
 }
 @media (max-width: 1024px) {
-  #area nav div img {
+  #area4 nav div img {
     display: none;
   }
 }
 @media (max-width: 1024px) { /* max = hasta... */
-  #area nav ul {
+  #area4 nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -222,7 +222,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav ul li a {
+  #area4 nav ul li a {
     margin: 1px 1px;
     padding: 1px;
     background-color: blue;
@@ -233,12 +233,12 @@
   }
 }
 @media (max-width: 1024px) {
-  #area header {
+  #area4 header {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area section {
+  #area4 .section4 {
     grid-area: info2;
     display: flex;
     align-items: center;
@@ -250,25 +250,25 @@
   }
 }
 @media (max-width: 1024px) {
-  #area section .p1 {
+  #area4 .section4 .p1 {
     font-size: 10px;
     padding: 5px 10px;
   }
 }
 @media (max-width: 1024px) {
-  #area section td {
+  #area4 .section4 td {
     font-size: 10px;
     text-align: center;
   }
 }
 @media (max-width: 1024px) {
-  #area section th {
+  #area4 .section4 th {
     font-size: 10px;
     text-align: center;
   }
 }
 @media (max-width: 1024px) {
-  #area .arreglo {
+  #area4 .arreglo {
     background-color: #D4F7BB;
     grid-area: menu;
     position: fixed;
@@ -279,7 +279,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area section .titulo2 {
+  #area4 .section4 .titulo2 {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -287,12 +287,12 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav div img {
+  #area4 nav div img {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area nav {
+  #area4 nav {
     grid-area: menu;
     display: flex;
     justify-content: center;
@@ -301,7 +301,7 @@
   }
 }
 @media (max-width: 1024px) { /* max = hasta... */
-  #area nav ul {
+  #area4 nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -314,7 +314,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav ul li a {
+  #area4 nav ul li a {
     margin: 1px 1px;
     padding: 1px;
     background-color: #A8F571;
@@ -325,12 +325,12 @@
   }
 }
 @media (max-width: 1024px) {
-  #area section h2 {
+  #area4 .section4 h2 {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area aside {
+  #area4 aside {
     display: none;
   }
 }/*# sourceMappingURL=estilo51.css.map */

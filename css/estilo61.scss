@@ -23,7 +23,7 @@ body{
     overflow-x: hidden;
 }
 
-#area
+#area5
 {
     display: grid;
     grid-template-areas:
@@ -94,7 +94,7 @@ body{
         }
         } 
     
-    section{
+    .section5{
 
         grid-area: info2;
         margin: 30px;
@@ -150,7 +150,7 @@ body{
                 }  
             }
         }
-    aside
+    .aside5
     {
     
     grid-area: banner;
@@ -194,7 +194,7 @@ body{
         }
 
     @media (max-width: 1024px) {
-        #area
+        #area5
            {
             display: grid;
             grid-template-areas:
@@ -212,7 +212,7 @@ body{
             
                 
     @media (max-width: 1024px) {
-    #area nav
+    #area5 nav
             {
                     
                     
@@ -223,14 +223,14 @@ body{
             }
             }
     @media (max-width: 1024px) {
-    #area nav div img
+    #area5 nav div img
             {
              display:none;
              }
              }
                 
     @media (max-width: 1024px) { /* max = hasta... */
-    #area nav ul
+    #area5 nav ul
         {
         list-style: none;
         display: flex;
@@ -246,7 +246,7 @@ body{
         }
 
 @media (max-width: 1024px) {
-    #area nav ul li a 
+    #area5 nav ul li a 
     {
         margin:1px 1px;
         padding: 1px;
@@ -259,14 +259,14 @@ body{
 }
                 
     @media (max-width: 1024px) {
-    #area header
+    #area5 header
              {
              display:none;
              }
              }
             
     @media (max-width: 1024px) {
-    #area section 
+    #area5 .section5 
             {
             grid-area: info2;
             display: flex;
@@ -284,14 +284,14 @@ body{
   
                 
     @media (max-width: 1024px) {
-    #area nav div img
+    #area5 nav div img
             {
             display:none
             }
             }
         
     @media (max-width: 1024px) {
-    #area nav
+    #area5 nav
             {
                     
             grid-area: menu;       
@@ -306,7 +306,7 @@ body{
             }
         
     @media (max-width: 1024px) {
-    #area section h2
+    #area5 .section5 h2
                 {
                     display:none;
                     
@@ -314,7 +314,7 @@ body{
             }         
             
     @media (max-width: 1024px) {
-    #area aside
+    #area5 .aside5
         {
                 
             display:none;
@@ -322,7 +322,7 @@ body{
         }
     
     @media (max-width: 1024px) {
-    #area .extension
+    #area5 .extension
         {
             
             grid-area: info3;

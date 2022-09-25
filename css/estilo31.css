@@ -6,7 +6,11 @@
   font-family: sans-serif;
 }
 
-#area {
+body {
+  overflow-x: hidden;
+}
+
+#area2 {
   display: grid;
   grid-template-areas: "menu  menu  menu" "info2 info2 banner" "info2 info2 banner" "footer footer footer";
   gap: 5px;
@@ -15,7 +19,7 @@
   grid-template-columns: auto auto 400px;
   background: linear-gradient(to top, #537A38, #D4F7BB, #A8F571);
 }
-#area header {
+#area2 header {
   grid-area: info;
   position: fixed;
   top: 70px;
@@ -24,11 +28,11 @@
   padding: 10px;
   padding-bottom: 50px;
 }
-#area header img {
+#area2 header img {
   height: auto;
   width: 100%;
 }
-#area nav {
+#area2 nav {
   grid-area: menu;
   display: flex;
   justify-content: space-between;
@@ -36,12 +40,12 @@
   left: 0px;
   right: 0px;
 }
-#area nav div img {
+#area2 nav div img {
   height: auto;
   width: 80px;
   padding-left: 0px;
 }
-#area nav ul {
+#area2 nav ul {
   list-style: none;
   display: flex;
   list-style: none;
@@ -50,7 +54,7 @@
   flex-wrap: nowrap;
   align-items: center;
 }
-#area nav ul li a {
+#area2 nav ul li a {
   margin: 10px 10px;
   padding: 10px;
   background-color: #A8F571;
@@ -58,75 +62,75 @@
   color: antiquewhite;
   border-radius: 5px;
 }
-#area nav ul li a:hover {
+#area2 nav ul li a:hover {
   background-color: white;
   color: #657559;
 }
-#area section {
+#area2 .seccion2 {
   grid-area: info2;
   padding-top: 40px;
 }
-#area section h1 {
+#area2 .seccion2 h1 {
   text-align: center;
   font-weight: bold;
 }
-#area section form {
+#area2 .seccion2 form {
   display: flex;
   justify-content: center;
 }
-#area section .titulo2 {
+#area2 .seccion2 .titulo2 {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-#area section .titulo {
+#area2 .seccion2 .titulo {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
 }
-#area section .et {
+#area2 .seccion2 .et {
   text-align: left;
   font-weight: bold;
   font-size: 15px;
   padding: 5px 5px;
   margin: 5px 5px;
 }
-#area section .et .textarea {
+#area2 .seccion2 .et .textarea {
   width: 300px;
   height: 100px;
   border: 1px;
 }
-#area section .et2 {
+#area2 .seccion2 .et2 {
   text-align: left;
   font-weight: bold;
   font-size: 15px;
   padding: 5px 5px;
   margin: 5px 5px;
 }
-#area section .ir {
+#area2 .seccion2 .ir {
   text-align: center;
   font-weight: bold;
   font-size: 15px;
   padding: 5px 0px;
   margin: 5px 0px;
 }
-#area section .ir a {
+#area2 .seccion2 .ir a {
   color: whitesmoke;
 }
-#area section .ir a:hover {
+#area2 .seccion2 .ir a:hover {
   color: black;
 }
-#area section input .et {
+#area2 .seccion2 input .et {
   transition: all 1s;
 }
-#area section .et input:focus {
+#area2 .seccion2 .et input:focus {
   height: 50px;
   width: 500px;
   background-color: #A8F571;
 }
-#area article {
+#area2 article {
   grid-area: articulo;
   display: flex;
   align-content: center;
@@ -134,7 +138,7 @@
   align-items: flex-end;
   align-items: flex-end;
 }
-#area aside {
+#area2 .aside2 {
   grid-area: banner;
   display: flex;
   flex-direction: column;
@@ -142,23 +146,23 @@
   align-items: center;
   justify-content: flex-start;
 }
-#area aside .ban1 {
+#area2 .aside2 .ban1 {
   height: auto;
   width: 100%;
 }
-#area aside .ban2 {
+#area2 .aside2 .ban2 {
   margin: 0;
   padding: 5px;
 }
-#area aside .ban3 {
+#area2 .aside2 .ban3 {
   margin: 0;
   padding: 5px;
 }
-#area aside .ban4 {
+#area2 .aside2 .ban4 {
   margin: 0;
   padding: 5px;
 }
-#area aside h8 {
+#area2 .aside2 h8 {
   width: 400px;
   height: 100px;
   padding: 5px;
@@ -203,7 +207,7 @@
     background-color: green;
   }
 }
-#area footer {
+#area2 footer {
   grid-area: footer;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -211,16 +215,16 @@
   padding: 5px;
 }
 
-#area article div {
+#area2 article div {
   width: 100%;
   height: auto;
 }
-#area article img {
+#area2 article img {
   width: 100%;
   height: auto;
   padding: 10px;
 }
-#area article p {
+#area2 article p {
   margin: 0;
   padding: 10px;
   color: brown;
@@ -236,7 +240,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area {
+  #area2 {
     display: grid;
     grid-template-areas: "menu" "info2" "footer";
     gap: 5px;
@@ -246,19 +250,19 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav {
+  #area2 nav {
     grid-area: menu;
     display: flex;
     justify-content: center;
   }
 }
 @media (max-width: 1024px) {
-  #area nav div img {
+  #area2 nav div img {
     display: none;
   }
 }
 @media (max-width: 1024px) { /* max = hasta... */
-  #area nav ul {
+  #area2 nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -271,12 +275,12 @@
   }
 }
 @media (max-width: 1024px) {
-  #area header {
+  #area2 header {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area section {
+  #area2 section {
     grid-area: info2;
     display: flex;
     align-items: center;
@@ -285,13 +289,22 @@
     flex-direction: column;
     margin-top: -80px;
   }
-  #area section h1 {
+  #area2 section h1 {
     text-align: center;
     font-weight: bold;
   }
 }
 @media (max-width: 1024px) {
-  #area .arreglo {
+  #area2 section .ir {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+  }
+}
+@media (max-width: 1024px) {
+  #area2 .arreglo {
     background-color: #D4F7BB;
     grid-area: menu;
     position: fixed;
@@ -302,7 +315,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area section .titulo2 {
+  #area2 section .titulo2 {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -310,12 +323,12 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav div img {
+  #area2 nav div img {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area nav {
+  #area2 nav {
     grid-area: menu;
     display: flex;
     justify-content: center;
@@ -325,7 +338,7 @@
   }
 }
 @media (max-width: 1024px) { /* max = hasta... */
-  #area nav ul {
+  #area2 nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -338,7 +351,7 @@
   }
 }
 @media (max-width: 1024px) {
-  #area nav ul li a {
+  #area2 nav ul li a {
     margin: 1px 1px;
     padding: 1px;
     background-color: #A8F571;
@@ -349,17 +362,17 @@
   }
 }
 @media (max-width: 1024px) {
-  #area section h2 {
+  #area2 section h2 {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area aside {
+  #area2 aside {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area footer {
+  #area2 footer {
     grid-area: footer;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
@@ -367,18 +380,18 @@
     padding: 15px;
   }
 }
-@media (max-width: 1024px) and (max-width: 1024px) {
-  #area .extension .ir {
+@media (max-width: 1024px) {
+  #area2 section .ir {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
     padding: 5px 0px;
     margin: 5px 0px;
   }
-  #area .extension .ir a {
+  #area2 section .ir a {
     color: whitesmoke;
   }
-  #area .extension .ir a:hover {
+  #area2 section .ir a:hover {
     color: black;
   }
 }/*# sourceMappingURL=estilo31.css.map */

@@ -21,7 +21,7 @@ body{
     overflow-x : hidden;
 }
 
-#area
+#area2
 {
     display: grid;
     grid-template-areas:
@@ -98,10 +98,10 @@ body{
     }
 
 
-    section
+    .seccion2
     {
     
-         grid-area: info2;
+        grid-area: info2;
         padding-top:40px;
 
          h1{
@@ -198,7 +198,7 @@ body{
     align-items: flex-end;
 }
 
-    aside
+    .aside2
 {
     
     grid-area: banner;
@@ -257,7 +257,7 @@ body{
     100% {background-color: green;}
   }
 
-  #area footer
+  #area2 footer
   {
       
       grid-area: footer;
@@ -267,7 +267,7 @@ body{
       padding: 5px;
   }
 
-  #area article 
+  #area2 article 
 {
     div{
     width: 100%;
@@ -300,7 +300,7 @@ body{
     }
     
     @media (max-width: 1024px) {
-        #area
+        #area2
            {
             display: grid;
             grid-template-areas:
@@ -317,7 +317,7 @@ body{
             
                 
     @media (max-width: 1024px) {
-    #area nav
+    #area2 nav
             {
                     
                     
@@ -328,14 +328,14 @@ body{
             }
             }
     @media (max-width: 1024px) {
-    #area nav div img
+    #area2 nav div img
             {
              display:none;
              }
              }
                 
     @media (max-width: 1024px) { /* max = hasta... */
-    #area nav ul
+    #area2 nav ul
         {
              list-style: none;
              display: flex;
@@ -352,14 +352,14 @@ body{
           
         
 @media (max-width: 1024px) {
-#area header
+#area2 header
      {
      display:none;
      }
      }
     
 @media (max-width: 1024px) {
-#area section 
+#area2 section 
     {
     grid-area: info2;
     display: flex;
@@ -378,7 +378,7 @@ body{
      }
 
  @media (max-width: 1024px) {
-#area section .ir{
+#area2 section .ir{
      text-align: center;
      font-weight: bold;
      font-size: 10px;
@@ -390,7 +390,7 @@ body{
     
      
 @media (max-width: 1024px) {
-#area .arreglo
+#area2 .arreglo
      {
      background-color: #D4F7BB;
      grid-area: menu;
@@ -404,7 +404,7 @@ body{
         
      
 @media (max-width: 1024px) {
-#area section .titulo2 {
+#area2 section .titulo2 {
      text-align: center;
      font-weight: bold;          
      font-size: 20px;
@@ -417,14 +417,14 @@ body{
   
         
 @media (max-width: 1024px) {
-#area nav div img
+#area2 nav div img
     {
     display:none
     }
     }
 
 @media (max-width: 1024px) {
-#area nav
+#area2 nav
     {
             
     grid-area: menu;       
@@ -439,7 +439,7 @@ body{
     }
 
     @media (max-width: 1024px) { /* max = hasta... */
-        #area nav ul
+        #area2 nav ul
                 {
                 list-style: none;
                 display: flex;
@@ -455,7 +455,7 @@ body{
                 }
                  
         @media (max-width: 1024px) {
-        #area nav ul li a 
+        #area2 nav ul li a 
                 {
                 margin:1px 1px;
                 padding: 1px;
@@ -468,7 +468,7 @@ body{
                 }
 
 @media (max-width: 1024px) {
-#area section h2
+#area2 section h2
         {
             display:none;
             
@@ -476,7 +476,7 @@ body{
     }         
     
 @media (max-width: 1024px) {
-#area aside
+#area2 aside
 {
         
     display:none;
@@ -484,7 +484,7 @@ body{
 }
 
 @media (max-width: 1024px) {
-#area footer
+#area2 footer
 {
     
     grid-area: footer;
@@ -493,9 +493,9 @@ body{
     font-size: 10px;
     padding: 15px;
 }
-
+}
 @media (max-width: 1024px) {
-#area section .ir{
+#area2 section .ir{
 
     text-align: center;
    

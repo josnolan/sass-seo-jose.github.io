@@ -14,7 +14,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
     font-family: sans-serif;
 }
 
-#area
+#area4
 {
     display: grid;
     grid-template-areas:
@@ -92,7 +92,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
     
     }
     
-    section
+    .section4
     {
     
     grid-area: info2;
@@ -164,7 +164,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         }      
 
     }
-    article
+    .article4
     {
    
     grid-area: articulo;
@@ -193,7 +193,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
 
     }
 
-    aside
+    .aside4
     {
     
     grid-area: banner;
@@ -255,7 +255,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
 }
 
 @media (max-width: 1024px) {
-    #area
+    #area4
        {
         display: grid;
         grid-template-areas:
@@ -272,7 +272,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         
             
 @media (max-width: 1024px) {
-#area nav
+#area4 nav
         {
                 
                 
@@ -283,14 +283,14 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         }
         }
 @media (max-width: 1024px) {
-#area nav div img
+#area4 nav div img
         {
          display:none;
          }
          }
             
 @media (max-width: 1024px) { /* max = hasta... */
-#area nav ul
+#area4 nav ul
     {
          list-style: none;
          display: flex;
@@ -307,7 +307,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
             
         
 @media (max-width: 1024px) {
-#area nav ul li a 
+#area4 nav ul li a 
      {
          margin:1px 1px;
          padding: 1px;
@@ -320,14 +320,14 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
      }
             
 @media (max-width: 1024px) {
-#area header
+#area4 header
          {
          display:none;
          }
          }
         
 @media (max-width: 1024px) {
-#area section 
+#area4 .section4
         {
         grid-area: info2;
         display: flex;
@@ -341,7 +341,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
          }
     
 @media (max-width: 1024px) {
-#area section .p1{
+#area4 .section4 .p1{
          
     font-size: 10px;
     padding: 5px 10px;
@@ -351,7 +351,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
     }
 
 @media (max-width: 1024px) {
-#area section td{
+#area4 .section4 td{
          
     font-size: 10px;
     text-align:center;
@@ -361,7 +361,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
    }
   
 @media (max-width: 1024px) {
-#area section th{
+#area4 .section4 th{
              
         font-size: 10px;
         text-align:center;
@@ -371,7 +371,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
        }
          
 @media (max-width: 1024px) {
-#area .arreglo
+#area4 .arreglo
          {
          background-color: #D4F7BB;
          grid-area: menu;
@@ -385,7 +385,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
             
          
 @media (max-width: 1024px) {
-#area section .titulo2 {
+#area4 .section4 .titulo2 {
          text-align: center;
          font-weight: bold;          
          font-size: 20px;
@@ -398,14 +398,14 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
       
             
 @media (max-width: 1024px) {
-#area nav div img
+#area4 nav div img
         {
         display:none
         }
         }
     
 @media (max-width: 1024px) {
-#area nav
+#area4 nav
         {
                 
         grid-area: menu;       
@@ -420,7 +420,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         }
 
 @media (max-width: 1024px) { /* max = hasta... */
-#area nav ul
+#area4 nav ul
         {
         list-style: none;
         display: flex;
@@ -436,7 +436,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         }
          
 @media (max-width: 1024px) {
-#area nav ul li a 
+#area4 nav ul li a 
         {
         margin:1px 1px;
         padding: 1px;
@@ -449,7 +449,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         }
     
 @media (max-width: 1024px) {
-#area section h2
+#area4 .section4 h2
             {
                 display:none;
                 
@@ -457,7 +457,7 @@ $fondo: linear-gradient(to top,#537A38,#D4F7BB,#A8F571);
         }         
         
 @media (max-width: 1024px) {
-#area aside
+#area4 aside
     {
             
         display:none;

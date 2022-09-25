@@ -1,6 +1,11 @@
 /* Variables*/
 /* Map-get*/
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import "estilo31.css";
+@import "estilo41.css";
+@import "estilo51.css";
+@import "estilo61.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@
 }
 
 body {
-  size: cover;
+  overflow-x: hidden;
 }
 
 #area {
@@ -28,7 +33,7 @@ body {
   left: 0;
   right: 0;
   padding-bottom: 5px;
-  background-image: url(../assets/clases_particulares2.png);
+  background-image: url(../assets/clases_particulares3.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }

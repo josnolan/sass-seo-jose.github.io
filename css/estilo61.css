@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-#area {
+#area5 {
   display: grid;
   grid-template-areas: "menu menu menu menu" "info2 info2 info2 banner" "info3 info3 info3 info3" "footer footer footer footer";
   gap: 5px;
@@ -19,7 +19,7 @@ body {
   grid-template-columns: 25% 25% 25% 25%;
   background: linear-gradient(to top, #537A38, #D4F7BB, #A8F571);
 }
-#area header {
+#area5 header {
   grid-area: info;
   position: fixed;
   top: 50px;
@@ -28,13 +28,13 @@ body {
   padding: 10px;
   padding-bottom: 50px;
 }
-#area header img {
+#area5 header img {
   width: 100%;
   height: auto;
   padding: 20px 20px;
   margin: 20px 20px;
 }
-#area nav {
+#area5 nav {
   grid-area: menu;
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ body {
   /*padding-left: 100px;*/
   z-index: 1;
 }
-#area nav ul {
+#area5 nav ul {
   list-style: none;
   display: flex;
   list-style: none;
@@ -53,7 +53,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
-#area nav ul li a {
+#area5 nav ul li a {
   margin: 10px 10px;
   padding: 10px;
   background-color: #A8F571;
@@ -61,26 +61,26 @@ body {
   color: antiquewhite;
   border-radius: 5px;
 }
-#area nav ul li a:hover {
+#area5 nav ul li a:hover {
   background-color: white;
   color: #657559;
 }
-#area nav div img {
+#area5 nav div img {
   width: 80px;
   height: auto;
   padding-left: 0px;
 }
-#area section {
+#area5 .section5 {
   grid-area: info2;
   margin: 30px;
 }
-#area section h1 {
+#area5 .section5 h1 {
   text-align: center;
   font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-#area section p {
+#area5 .section5 p {
   height: auto;
   width: 100%;
   font-size: 20px;
@@ -88,11 +88,11 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
-#area section form {
+#area5 .section5 form {
   display: flex;
   justify-content: center;
 }
-#area .extension {
+#area5 .extension {
   grid-area: info3;
   margin-top: 55px;
   margin-left: 30px;
@@ -103,20 +103,20 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
-#area .extension .ir {
+#area5 .extension .ir {
   text-align: center;
   font-weight: bold;
   font-size: 15px;
   padding: 5px 0px;
   margin: 5px 0px;
 }
-#area .extension .ir a {
+#area5 .extension .ir a {
   color: whitesmoke;
 }
-#area .extension .ir a:hover {
+#area5 .extension .ir a:hover {
   color: black;
 }
-#area aside {
+#area5 .aside5 {
   grid-area: banner;
   display: flex;
   flex-direction: column;
@@ -125,13 +125,13 @@ body {
   justify-content: flex-start;
   margin: 5px 5px;
 }
-#area aside .ban1 {
+#area5 .aside5 .ban1 {
   height: auto;
   width: 100%;
   margin: 40px 10px;
   padding: 40px 10px;
 }
-#area footer {
+#area5 footer {
   grid-area: footer;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -150,7 +150,7 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  #area {
+  #area5 {
     display: grid;
     grid-template-areas: "menu" "info2" "info3" "footer";
     gap: 5px;
@@ -160,19 +160,19 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  #area nav {
+  #area5 nav {
     grid-area: menu;
     display: flex;
     justify-content: center;
   }
 }
 @media (max-width: 1024px) {
-  #area nav div img {
+  #area5 nav div img {
     display: none;
   }
 }
 @media (max-width: 1024px) { /* max = hasta... */
-  #area nav ul {
+  #area5 nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -185,7 +185,7 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  #area nav ul li a {
+  #area5 nav ul li a {
     margin: 1px 1px;
     padding: 1px;
     background-color: #A8F571;
@@ -196,12 +196,12 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  #area header {
+  #area5 header {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area section {
+  #area5 .section5 {
     grid-area: info2;
     display: flex;
     align-items: center;
@@ -213,12 +213,12 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  #area nav div img {
+  #area5 nav div img {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area nav {
+  #area5 nav {
     grid-area: menu;
     display: flex;
     justify-content: center;
@@ -228,17 +228,17 @@ body {
   }
 }
 @media (max-width: 1024px) {
-  #area section h2 {
+  #area5 .section5 h2 {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area aside {
+  #area5 .aside5 {
     display: none;
   }
 }
 @media (max-width: 1024px) {
-  #area .extension {
+  #area5 .extension {
     grid-area: info3;
     display: flex;
     flex-direction: column;
@@ -252,17 +252,17 @@ body {
     padding: 10px 5px;
     margin: 0px;
   }
-  #area .extension .ir {
+  #area5 .extension .ir {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
     padding: 5px 0px;
     margin: 5px 0px;
   }
-  #area .extension .ir a {
+  #area5 .extension .ir a {
     color: whitesmoke;
   }
-  #area .extension .ir a:hover {
+  #area5 .extension .ir a:hover {
     color: black;
   }
 }/*# sourceMappingURL=estilo61.css.map */
